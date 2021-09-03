@@ -5,8 +5,8 @@ class GoogleAuth extends React.Component {
     window.gapi.load('client:auth2', () => {
       window.gapi.client.init({
         clientId:
-          '797401886567-9cumct9mrt3v2va409rasa7fa6fq02hh.apps.googleusercontent.com',
-        scope: 'email'
+          '549099714827-ujmcj18mqjde2tfh4333bkjo78qkgv1p.apps.googleusercontent.com',
+        scope: 'email',
       });
     });
   }
